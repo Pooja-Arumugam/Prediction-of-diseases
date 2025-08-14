@@ -14,7 +14,11 @@ It classifies medical images into different disease categories, supporting diagn
 The model is built using **TensorFlow/Keras**, with preprocessing, augmentation, training, and evaluation steps.
 
 ---
-
+## Purpose of the Project
+- The primary motivation for this project was to leverage deep learning to assist in the early detection of diseases from medical images.
+- Early and accurate diagnosis can significantly improve patient outcomes, reduce the cost of treatment, and help medical professionals make faster, data-driven decisions.
+This project serves as both a technical proof-of-concept and a practical tool that could be integrated into clinical workflows or used for academic research and experimentation.
+---
 ## Dataset
 - **Type**: Medical image dataset containing labeled images for various diseases.
 - **Structure**:
