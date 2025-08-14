@@ -18,7 +18,7 @@ The model is built using **TensorFlow/Keras**, with preprocessing, augmentation,
 ## Dataset
 - **Type**: Medical image dataset containing labeled images for various diseases.
 - **Structure**:
-
+```
   .
 ├── Disease_Prediction.ipynb
 ├── README.md
@@ -27,6 +27,7 @@ The model is built using **TensorFlow/Keras**, with preprocessing, augmentation,
     ├── train/
     ├── valid/
     └── test/
+```
 ---
 
 - **Data Augmentation**: Implemented using `ImageDataGenerator` to improve model generalization.
