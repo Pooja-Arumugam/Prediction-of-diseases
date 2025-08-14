@@ -17,7 +17,7 @@ The model is built using **TensorFlow/Keras**, with preprocessing, augmentation,
 ## Purpose of the Project
 - The primary motivation for this project was to leverage deep learning to assist in the early detection of diseases from medical images.
 - Early and accurate diagnosis can significantly improve patient outcomes, reduce the cost of treatment, and help medical professionals make faster, data-driven decisions.
-This project serves as both a technical proof-of-concept and a practical tool that could be integrated into clinical workflows or used for academic research and experimentation.
+- This project serves as both a technical proof-of-concept and a practical tool that could be integrated into clinical workflows or used for academic research and experimentation.
 ---
 ## Dataset
 - **Type**: Medical image dataset containing labeled images for various diseases.
@@ -100,3 +100,9 @@ pip install -r requirements.txt
 ## Notes
 - Update the dataset path in the notebook to match your local/Google Drive structure.
 - Use GPU acceleration for significantly faster training.
+## Impact
+- Healthcare Support – Provides a scalable way to pre-screen large volumes of medical images, helping radiologists and doctors focus on high-priority cases.
+- Early Intervention – Timely detection can lead to earlier treatment, improving recovery rates and reducing severe complications.
+- Accessibility – Can be deployed in remote or under-resourced areas where access to medical experts is limited.
+- Educational Value – Demonstrates how transfer learning and CNN architectures (like ResNet50) can be applied to medical datasets, serving as a learning resource for other developers and  students.
+- Foundation for Further Research – Can be extended with larger datasets, more disease classes, or advanced architectures (EfficientNet, Vision Transformers) to push accuracy even further.
